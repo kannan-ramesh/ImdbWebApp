@@ -1,0 +1,42 @@
+@charset "ISO-8859-1";
+
+.head{
+	
+    
+   position:fixed;
+   width: 100%;
+   top: 0;
+   left: 0;
+   height: 3rem;
+   background: red;
+   display:flex;
+   justify-content: center;
+   align-items: center;
+   box-shadow: 0 2px 6px rgba(0,0,0, 0.26);
+    
+	
+}
+
+header a{
+	justify-content:left;
+	align-items:left;
+}
+
+header div {
+align-items:"center";
+justify-content:center;
+
+}
+header div button{
+	float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+ header div button:hover {
+  background: #ccc;
+}

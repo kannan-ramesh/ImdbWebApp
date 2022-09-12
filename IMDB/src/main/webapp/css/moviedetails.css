@@ -1,0 +1,8 @@
+@charset "ISO-8859-1";
+
+.movie-box img{
+    vertical-align: middle;
+    border-style: none;
+    padding: initial;
+    margin-top: 70px;
+}
